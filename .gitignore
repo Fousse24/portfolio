@@ -1,2 +1,3 @@
 .vscode
 *.DSym
+.DS_Store

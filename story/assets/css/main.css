@@ -29,6 +29,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* CUSTOM */
+footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+	height: 70px !important;
+  	width: 100%;
+	padding: 0 !important;
+  	text-align: center;
+	background-color: white;
+}
+
+#footer_copyright {
+	position: relative;
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 100%;
+}
+
+.skill_icons {
+	width: 20px;
+}
+
+.header_links {
+	color: #000077;
+}
+/* END CUSTOM */
+
 body {
 	line-height: 1;
 }
@@ -2165,7 +2195,7 @@ input, select, textarea {
 		input[type="button"].wide,
 		button.wide,
 		.button.wide {
-			min-width: 14em;
+			min-width: 10em;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2879,6 +2909,12 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-moz-transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
 	}
 
 		ul.icons li {
@@ -4861,7 +4897,8 @@ input, select, textarea {
 	}
 
 		.spotlight.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			/* padding: 7rem 7rem 5rem 7rem ; default */
+			padding: 6rem 6rem 4rem 6rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4914,7 +4951,8 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlight.style1 .content {
-				padding: 5rem 5rem 3rem 5rem ;
+				/* padding: 5rem 5rem 3rem 5rem ; */
+				padding: 4.5rem 4.5rem 2.5rem 4.5rem ;
 			}
 
 		}
@@ -4922,7 +4960,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlight.style1 .content {
-				padding: 4rem 4rem 2rem 4rem ;
+				/* padding: 4rem 4rem 2rem 4rem ; */
+				padding: 3.5rem 3.5rem 2rem 3.5rem ;
 			}
 
 		}
@@ -4930,7 +4969,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlight.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				/* padding: 3.75rem 3rem 1.75rem 3rem ; */
+				padding: 3rem 2.5rem 1.5rem 2.5rem ;
 				width: 50%;
 				min-width: 0;
 			}
@@ -4945,6 +4985,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlight.style1 .content {
+				/* padding: 2.5rem 2rem 0.5rem 2rem ; */
 				padding: 2.5rem 2rem 0.5rem 2rem ;
 			}
 
