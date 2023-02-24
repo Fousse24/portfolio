@@ -29,6 +29,40 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* CUSTOM */
+footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+	height: 70px !important;
+  	width: 100%;
+	padding: 0 !important;
+  	text-align: center;
+	background-color: white;
+}
+
+#footer_copyright {
+	position: relative;
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 100%;
+}
+
+.skill_icons {
+	width: 20px;
+}
+
+#back_to_top {
+	padding-top: 10%;
+}
+
+.header_links {
+	color: #000077;
+}
+/* END CUSTOM */
+
 body {
 	line-height: 1;
 }
@@ -2165,7 +2199,7 @@ input, select, textarea {
 		input[type="button"].wide,
 		button.wide,
 		.button.wide {
-			min-width: 14em;
+			min-width: 10em;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2879,6 +2913,12 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-moz-transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
 	}
 
 		ul.icons li {
@@ -4861,7 +4901,8 @@ input, select, textarea {
 	}
 
 		.spotlight.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			/* padding: 7rem 7rem 5rem 7rem ; default */
+			padding: 6rem 6rem 4rem 6rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4914,7 +4955,8 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlight.style1 .content {
-				padding: 5rem 5rem 3rem 5rem ;
+				/* padding: 5rem 5rem 3rem 5rem ; */
+				padding: 4.5rem 4.5rem 2.5rem 4.5rem ;
 			}
 
 		}
@@ -4922,7 +4964,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlight.style1 .content {
-				padding: 4rem 4rem 2rem 4rem ;
+				/* padding: 4rem 4rem 2rem 4rem ; */
+				padding: 3.5rem 3.5rem 2rem 3.5rem ;
 			}
 
 		}
@@ -4930,7 +4973,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlight.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				/* padding: 3.75rem 3rem 1.75rem 3rem ; */
+				padding: 3rem 2.5rem 1.5rem 2.5rem ;
 				width: 50%;
 				min-width: 0;
 			}
@@ -4945,6 +4989,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlight.style1 .content {
+				/* padding: 2.5rem 2rem 0.5rem 2rem ; */
 				padding: 2.5rem 2rem 0.5rem 2rem ;
 			}
 
@@ -5936,167 +5981,6 @@ input, select, textarea {
 		transition-delay: 1.35s;
 	}
 
-	.gallery.onload-fade-in article:nth-child(11) .image img {
-		-moz-transition-delay: 1.5s;
-		-webkit-transition-delay: 1.5s;
-		-ms-transition-delay: 1.5s;
-		transition-delay: 1.5s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(12) .image img {
-		-moz-transition-delay: 1.65s;
-		-webkit-transition-delay: 1.65s;
-		-ms-transition-delay: 1.65s;
-		transition-delay: 1.65s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(13) .image img {
-		-moz-transition-delay: 1.8s;
-		-webkit-transition-delay: 1.8s;
-		-ms-transition-delay: 1.8s;
-		transition-delay: 1.8s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(14) .image img {
-		-moz-transition-delay: 1.95s;
-		-webkit-transition-delay: 1.95s;
-		-ms-transition-delay: 1.95s;
-		transition-delay: 1.95s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(15) .image img {
-		-moz-transition-delay: 2.1s;
-		-webkit-transition-delay: 2.1s;
-		-ms-transition-delay: 2.1s;
-		transition-delay: 2.1s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(16) .image img {
-		-moz-transition-delay: 2.25s;
-		-webkit-transition-delay: 2.25s;
-		-ms-transition-delay: 2.25s;
-		transition-delay: 2.25s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(17) .image img {
-		-moz-transition-delay: 2.4s;
-		-webkit-transition-delay: 2.4s;
-		-ms-transition-delay: 2.4s;
-		transition-delay: 2.4s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(18) .image img {
-		-moz-transition-delay: 2.55s;
-		-webkit-transition-delay: 2.55s;
-		-ms-transition-delay: 2.55s;
-		transition-delay: 2.55s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(19) .image img {
-		-moz-transition-delay: 2.7s;
-		-webkit-transition-delay: 2.7s;
-		-ms-transition-delay: 2.7s;
-		transition-delay: 2.7s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(20) .image img {
-		-moz-transition-delay: 2.85s;
-		-webkit-transition-delay: 2.85s;
-		-ms-transition-delay: 2.85s;
-		transition-delay: 2.85s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(21) .image img {
-		-moz-transition-delay: 3s;
-		-webkit-transition-delay: 3s;
-		-ms-transition-delay: 3s;
-		transition-delay: 3s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(22) .image img {
-		-moz-transition-delay: 3.15s;
-		-webkit-transition-delay: 3.15s;
-		-ms-transition-delay: 3.15s;
-		transition-delay: 3.15s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(23) .image img {
-		-moz-transition-delay: 3.3s;
-		-webkit-transition-delay: 3.3s;
-		-ms-transition-delay: 3.3s;
-		transition-delay: 3.3s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(24) .image img {
-		-moz-transition-delay: 3.45s;
-		-webkit-transition-delay: 3.45s;
-		-ms-transition-delay: 3.45s;
-		transition-delay: 3.45s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(25) .image img {
-		-moz-transition-delay: 3.6s;
-		-webkit-transition-delay: 3.6s;
-		-ms-transition-delay: 3.6s;
-		transition-delay: 3.6s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(26) .image img {
-		-moz-transition-delay: 3.75s;
-		-webkit-transition-delay: 3.75s;
-		-ms-transition-delay: 3.75s;
-		transition-delay: 3.75s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(27) .image img {
-		-moz-transition-delay: 3.9s;
-		-webkit-transition-delay: 3.9s;
-		-ms-transition-delay: 3.9s;
-		transition-delay: 3.9s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(28) .image img {
-		-moz-transition-delay: 4.05s;
-		-webkit-transition-delay: 4.05s;
-		-ms-transition-delay: 4.05s;
-		transition-delay: 4.05s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(29) .image img {
-		-moz-transition-delay: 4.2s;
-		-webkit-transition-delay: 4.2s;
-		-ms-transition-delay: 4.2s;
-		transition-delay: 4.2s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(30) .image img {
-		-moz-transition-delay: 4.35s;
-		-webkit-transition-delay: 4.35s;
-		-ms-transition-delay: 4.35s;
-		transition-delay: 4.35s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(31) .image img {
-		-moz-transition-delay: 4.5s;
-		-webkit-transition-delay: 4.5s;
-		-ms-transition-delay: 4.5s;
-		transition-delay: 4.5s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(32) .image img {
-		-moz-transition-delay: 4.65s;
-		-webkit-transition-delay: 4.65s;
-		-ms-transition-delay: 4.65s;
-		transition-delay: 4.65s;
-	}
-
-	.gallery.onload-fade-in article:nth-child(33) .image img {
-		-moz-transition-delay: 4.8s;
-		-webkit-transition-delay: 4.8s;
-		-ms-transition-delay: 4.8s;
-		transition-delay: 4.8s;
-	}
-
 	body.is-preload .gallery.onload-fade-in article .image img {
 		opacity: 0;
 	}
@@ -6180,167 +6064,6 @@ input, select, textarea {
 		-webkit-transition-delay: 1.35s;
 		-ms-transition-delay: 1.35s;
 		transition-delay: 1.35s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(11) .image img {
-		-moz-transition-delay: 1.5s;
-		-webkit-transition-delay: 1.5s;
-		-ms-transition-delay: 1.5s;
-		transition-delay: 1.5s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(12) .image img {
-		-moz-transition-delay: 1.65s;
-		-webkit-transition-delay: 1.65s;
-		-ms-transition-delay: 1.65s;
-		transition-delay: 1.65s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(13) .image img {
-		-moz-transition-delay: 1.8s;
-		-webkit-transition-delay: 1.8s;
-		-ms-transition-delay: 1.8s;
-		transition-delay: 1.8s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(14) .image img {
-		-moz-transition-delay: 1.95s;
-		-webkit-transition-delay: 1.95s;
-		-ms-transition-delay: 1.95s;
-		transition-delay: 1.95s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(15) .image img {
-		-moz-transition-delay: 2.1s;
-		-webkit-transition-delay: 2.1s;
-		-ms-transition-delay: 2.1s;
-		transition-delay: 2.1s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(16) .image img {
-		-moz-transition-delay: 2.25s;
-		-webkit-transition-delay: 2.25s;
-		-ms-transition-delay: 2.25s;
-		transition-delay: 2.25s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(17) .image img {
-		-moz-transition-delay: 2.4s;
-		-webkit-transition-delay: 2.4s;
-		-ms-transition-delay: 2.4s;
-		transition-delay: 2.4s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(18) .image img {
-		-moz-transition-delay: 2.55s;
-		-webkit-transition-delay: 2.55s;
-		-ms-transition-delay: 2.55s;
-		transition-delay: 2.55s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(19) .image img {
-		-moz-transition-delay: 2.7s;
-		-webkit-transition-delay: 2.7s;
-		-ms-transition-delay: 2.7s;
-		transition-delay: 2.7s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(20) .image img {
-		-moz-transition-delay: 2.85s;
-		-webkit-transition-delay: 2.85s;
-		-ms-transition-delay: 2.85s;
-		transition-delay: 2.85s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(21) .image img {
-		-moz-transition-delay: 3s;
-		-webkit-transition-delay: 3s;
-		-ms-transition-delay: 3s;
-		transition-delay: 3s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(22) .image img {
-		-moz-transition-delay: 3.15s;
-		-webkit-transition-delay: 3.15s;
-		-ms-transition-delay: 3.15s;
-		transition-delay: 3.15s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(23) .image img {
-		-moz-transition-delay: 3.3s;
-		-webkit-transition-delay: 3.3s;
-		-ms-transition-delay: 3.3s;
-		transition-delay: 3.3s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(24) .image img {
-		-moz-transition-delay: 3.45s;
-		-webkit-transition-delay: 3.45s;
-		-ms-transition-delay: 3.45s;
-		transition-delay: 3.45s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(25) .image img {
-		-moz-transition-delay: 3.6s;
-		-webkit-transition-delay: 3.6s;
-		-ms-transition-delay: 3.6s;
-		transition-delay: 3.6s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(26) .image img {
-		-moz-transition-delay: 3.75s;
-		-webkit-transition-delay: 3.75s;
-		-ms-transition-delay: 3.75s;
-		transition-delay: 3.75s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(27) .image img {
-		-moz-transition-delay: 3.9s;
-		-webkit-transition-delay: 3.9s;
-		-ms-transition-delay: 3.9s;
-		transition-delay: 3.9s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(28) .image img {
-		-moz-transition-delay: 4.05s;
-		-webkit-transition-delay: 4.05s;
-		-ms-transition-delay: 4.05s;
-		transition-delay: 4.05s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(29) .image img {
-		-moz-transition-delay: 4.2s;
-		-webkit-transition-delay: 4.2s;
-		-ms-transition-delay: 4.2s;
-		transition-delay: 4.2s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(30) .image img {
-		-moz-transition-delay: 4.35s;
-		-webkit-transition-delay: 4.35s;
-		-ms-transition-delay: 4.35s;
-		transition-delay: 4.35s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(31) .image img {
-		-moz-transition-delay: 4.5s;
-		-webkit-transition-delay: 4.5s;
-		-ms-transition-delay: 4.5s;
-		transition-delay: 4.5s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(32) .image img {
-		-moz-transition-delay: 4.65s;
-		-webkit-transition-delay: 4.65s;
-		-ms-transition-delay: 4.65s;
-		transition-delay: 4.65s;
-	}
-
-	.gallery.onscroll-fade-in article:nth-child(33) .image img {
-		-moz-transition-delay: 4.8s;
-		-webkit-transition-delay: 4.8s;
-		-ms-transition-delay: 4.8s;
-		transition-delay: 4.8s;
 	}
 
 	.gallery.onscroll-fade-in.is-inactive article .image img {
@@ -6485,6 +6208,8 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			width: 25%;
+			padding: 1%;
+			/* margin-left: 5px; */
 		}
 
 			.gallery.style1 article .image {
@@ -6530,11 +6255,11 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
+				background-color: rgba(0, 0, 0, 0.75);
 				opacity: 0;
 				padding: 2rem;
 				z-index: 1;
-				font-size: 0.8rem;
+				font-size: 0.7rem;
 			}
 
 				.gallery.style1 article .caption a {
