@@ -8388,33 +8388,30 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	border-color: #e2f2ff3e;
 }
 
-	.items.style2 > * {
-		border-color: #e2f2ff3e;
-	} */
+.items.style2 > * {
+	border-color: #e2f2ff3e;
+} */
 
-	.items.style1 > * {
-		/* border-color: #ffffff; */
-		border-width: 2px;
-		border-top-width: 1px !important;
-		border-right-width: 1px !important;
-		border-left-width: 1px !important;
-	}
+.items.style1 > * {
+	/* border-color: #ffffff; */
+	border-width: 2px;
+	border-top-width: 1px !important;
+	border-right-width: 1px !important;
+	border-left-width: 1px !important;
+}
 
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: #018fc3;
-		text-decoration: none;
-	}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #018fc3;
+	text-decoration: none;
+}
 
-	a {
-		color: #018fc3;
-		
-	}
+a {
+	color: #018fc3;
 	
-		a:hover {
-			color: #47D3E5;;
-		}
+}
 
-	div.caption ul.actions li {
-		padding: 0;
-	}
+a:hover {
+	color: #47D3E5;;
+}
+
 /*			*/
