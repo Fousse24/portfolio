@@ -47,6 +47,7 @@ footer {
 	right: 0; 
 	margin-left: auto; 
 	margin-right: auto; 
+	padding-bottom: 2rem;
 	width: 100%;
 }
 
@@ -218,11 +219,11 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1.5rem 0;
 	}
 
 		p.major {
-			font-size: 1.25rem;
+			font-size: 1.15rem;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -4472,7 +4473,7 @@ input, select, textarea {
 
 /* Spotlight (transitions) */
 
-	.spotlight.onload-content-fade-up .content {
+	/* .spotlight.onload-content-fade-up .content {
 		-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
@@ -4874,7 +4875,7 @@ input, select, textarea {
 
 	.spotlight.onscroll-image-fade-in.is-inactive .image img {
 		opacity: 0;
-	}
+	} */
 
 /* Spotlight (style1) */
 
@@ -4902,7 +4903,7 @@ input, select, textarea {
 
 		.spotlight.style1 .content {
 			/* padding: 7rem 7rem 5rem 7rem ; default */
-			padding: 6rem 6rem 4rem 6rem ;
+			padding: 3rem 6rem 2rem 5rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4956,7 +4957,7 @@ input, select, textarea {
 
 			.spotlight.style1 .content {
 				/* padding: 5rem 5rem 3rem 5rem ; */
-				padding: 4.5rem 4.5rem 2.5rem 4.5rem ;
+				padding: 3rem 4.5rem 2rem 4.5rem ;
 			}
 
 		}
@@ -5900,7 +5901,7 @@ input, select, textarea {
 
 /* Gallery (transitions) */
 
-	.gallery.onload-fade-in article .image img {
+	/* .gallery.onload-fade-in article .image img {
 		-moz-transition: opacity 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out;
@@ -6068,7 +6069,7 @@ input, select, textarea {
 
 	.gallery.onscroll-fade-in.is-inactive article .image img {
 		opacity: 0;
-	}
+	} */
 
 /* Gallery (style1) */
 
@@ -6938,7 +6939,7 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 7rem 3.5rem 5rem 3.5rem ;
+		padding: 2rem 3.5rem 1rem 3.5rem ;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 64rem;
@@ -6955,7 +6956,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 5rem 2.5rem 3rem 2.5rem ;
+			padding: 2rem 2.5rem 1rem 2.5rem ;
 		}
 
 	}
@@ -6963,7 +6964,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 5.5rem 1rem 5.5rem ;
 		}
 
 	}
@@ -6971,7 +6972,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 4.5rem 3rem 2.5rem 3rem ;
+			padding: 1.5rem 6rem 1rem 6rem ;
 		}
 
 	}
@@ -6979,7 +6980,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 3rem 2rem 1rem 2rem ;
+			padding: 1.5rem 2rem 1rem 2rem ;
 		}
 
 	}
@@ -7068,7 +7069,7 @@ input, select, textarea {
 
 /* Items (transitions) */
 
-	.items.onload-fade-in > * > .inner {
+	/* .items.onload-fade-in > * > .inner {
 		-moz-transition: opacity 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out;
@@ -7334,7 +7335,7 @@ input, select, textarea {
 
 	.items.onscroll-fade-in.is-inactive > * > .inner {
 		opacity: 0;
-	}
+	} */
 
 /* Items (style1) */
 
@@ -7351,7 +7352,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		margin: 3rem 0;
+		margin: 1rem 0;
 		position: relative;
 	}
 
@@ -7383,7 +7384,7 @@ input, select, textarea {
 			}
 
 		.items.style1.medium > * {
-			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
+			padding: 1.2rem 2.1875rem 0.1875rem 2.1875rem ;
 			width: 33.33333%;
 		}
 
@@ -7444,7 +7445,7 @@ input, select, textarea {
 			}
 
 			.items.style1.medium > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
+				padding: 1.2rem 3.5rem 1rem 3.5rem ;
 				width: 50%;
 			}
 
@@ -7465,7 +7466,7 @@ input, select, textarea {
 			}
 
 			.items.style1.small > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
+				padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
 				width: 50%;
 			}
 
