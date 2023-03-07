@@ -3685,7 +3685,7 @@ input, select, textarea {
 /* Banner (style2) */
 
 	.banner.style2 {
-		padding: 5.25rem 5.25rem 3.25rem 5.25rem ;
+		padding: 3.75rem 3.75rem 1.75rem 3.75rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3706,9 +3706,9 @@ input, select, textarea {
 
 		.banner.style2 .content {
 			/* padding: 5.25rem 5.25rem 3.25rem 5.25rem ; */
-			padding: 4rem 4rem 2.5rem 4rem ;
+			padding: 3.75rem 3.75rem 1.75rem 3.75rem ;
 			position: relative;
-			width: 40rem;
+			width: 33rem;
 			max-width: 100%;
 			background-color: inherit;
 			border-radius: 0.5rem;
