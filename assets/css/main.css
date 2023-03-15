@@ -6464,7 +6464,7 @@ input, select, textarea {
 			transition: opacity 0.2s ease-in-out;
 			position: absolute;
 			top: 0;
-			width: 5rem;
+			width: 3rem;
 			height: 100%;
 			cursor: pointer;
 			opacity: 0;
@@ -6487,7 +6487,7 @@ input, select, textarea {
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
 				display: block;
 				top: calc(50% - 1.5rem);
-				width: 4rem;
+				width: 3rem;
 				height: 3rem;
 				line-height: 1em;
 				font-size: 3rem;
@@ -8375,6 +8375,33 @@ a:hover {
 
 .actions a {
 	color:#000000;
+}
+
+.gallery.style2 article {
+	margin-right: 10px;
+}
+
+.gallery.style2 article:first-child{
+	margin-left: 3rem;
+}
+
+.gallery.style2 article:last-child{
+	margin-right: 3rem;
+}
+
+.unity-article {
+	min-width: 25vh;
+	max-width: 250px !important;
+}
+
+
+.unity-img {
+	max-height:100%;
+	max-width: 100%;
+}
+
+.gallery.style2 article .caption {
+	padding: 5px;
 }
 
 footer a {
