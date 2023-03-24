@@ -3014,6 +3014,7 @@ input, select, textarea {
 
 /* Banner (transitions) */
 
+	
 	.banner.onload-content-fade-up .content {
 		-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
